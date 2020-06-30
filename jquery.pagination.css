@@ -1,0 +1,35 @@
+/* 分页器最外层标签 */
+.dzm-pagination-container {
+}
+/* 分页器跳转页码输入框 */
+.dzm-pagination-container input {
+	margin: 0 5px;
+	text-align: center;
+}
+/* 分页器内部标签 */
+.dzm-pagination-container .dzm-pagination-page-item ,.dzm-pagination-container .dzm-pagination-page-btn {
+	font-size: 14px;
+	padding: 4px 10px;
+	background: #fff;
+	border: 1px solid #c5b7b7;
+	color: #888;
+	margin: 0 5px;
+	text-decoration: none;
+}
+/* 分页器鼠标悬浮高亮 */
+.dzm-pagination-container .dzm-pagination-page-item:hover {
+	border-color: #6EB8FF;
+	color: #6EB8FF;
+	text-decoration: none;
+}
+/* 分页器选择高亮 */
+.dzm-pagination-container .dzm-pagination-page-item.active {
+	background: #6EB8FF;
+	border-color: #6EB8FF;
+	color: #fff;
+	cursor: default;
+}
+/* 当前分页器 */
+#pagination {
+	text-align: center;
+}
